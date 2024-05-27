@@ -1,19 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import React from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
-    <>
-      <div>
-        <p>hello my name is sai</p>
-        <h3>hellos</h3>
+    <div className="m-10 ">
+      <div className="text-[100px] font-bold underline border-8 border-red-900 text-gray-700 p-10 text-blue-500">
+        hello
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default App;

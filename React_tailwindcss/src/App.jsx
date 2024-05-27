@@ -2,9 +2,13 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="m-10 ">
-      <div className="text-[100px] font-bold underline border-8 border-red-900 text-gray-700 p-10 text-blue-500">
-        hello
+    // using container and mx-auto will put it in the center
+    <div className="container mx-auto border-2 ">
+      <div className=" p-10 font-bold underline text-blue-500">hello</div>
+
+      {/* min and max width are good for making responsive sites */}
+      <div className="container mx-auto border-2 border-red-900 min-w-1 max-w-[300px]">
+        width property
       </div>
     </div>
   );

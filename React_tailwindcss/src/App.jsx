@@ -10,6 +10,22 @@ const App = () => {
       <div className="container mx-auto border-2 border-red-900 min-w-1 max-w-[300px]">
         width property
       </div>
+
+      <br />
+      {/* this will background color will change based on the screen size */}
+      <div className="sm:bg-red-500 md:bg-blue-400 lg:bg-green-500 xl:bg-gray-500 2x:bg-black">
+        <h1>will change</h1>
+      </div>
+
+      <div>
+        <br />
+        <div className="sm:bg-green-400 sm:flex">
+          <div className="border-2 border-red-500"></div>
+          <div className="border-2 border-red-500"></div>
+          <div className="border-2 border-red-500"></div>
+          <div className="border-2 border-red-500"></div>
+        </div>
+      </div>
     </div>
   );
 };

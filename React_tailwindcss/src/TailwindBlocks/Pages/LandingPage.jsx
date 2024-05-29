@@ -9,11 +9,12 @@ import PriceSection from "../Components/PriceSection";
 import TeamSection from "../Components/TeamSection";
 import TestSection from "../Components/TestSection";
 import ContactSection from "../Components/ContactSection";
+import FooterSection from "../Components/FooterSection";
 
-const LandingPage = () => {
+const LandingPage = ({ change }) => {
   return (
     <div>
-      <Navbar />
+      <Navbar change={change} />
       <HeroSection />
       <ContentSection />
       <GallerySection />
@@ -23,6 +24,7 @@ const LandingPage = () => {
       <TeamSection />
       <TestSection />
       <ContactSection />
+      <FooterSection />
     </div>
   );
 };

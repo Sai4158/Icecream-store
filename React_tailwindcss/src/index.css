@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* define the route here */
+:root {
+  --color-BgColor: white;
+  --color-TextColor: blue;
+}
+
+:root[class="dark"] {
+  --color-BgColor: black;
+  --color-TextColor: lightblue;
+}

@@ -23,18 +23,10 @@ export default {
     // this is how you get the custom colors
     // when you place them in the extend floder, the stock colors wont change
     extend: {
-      // colors: {
-      //   transparent: "transparent",
-      //   current: "currentColor",
-      //   white: "#ffffff",
-      //   purple: "#3f3cbb",
-      //   midnight: "#121063",
-      //   metal: "#565584",
-      //   tahiti: "#3ab7bf",
-      //   silver: "#ecebff",
-      //   "bubble-gum": "#ff77e9",
-      //   bermuda: "#78dcca",
-      // },
+      colors: {
+        bgColor: "var(--color-BgColor)",
+        TextColor: "var(--color-TextColor)",
+      },
     },
   },
   plugins: [],

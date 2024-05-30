@@ -5,7 +5,7 @@
 /* define the route here */
 :root {
   --color-BgColor: white;
-  --color-TextColor: blue;
+  --color-TextColor: black;
 }
 
 :root[class="dark"] {

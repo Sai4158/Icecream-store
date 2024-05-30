@@ -1,38 +1,41 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./TailwindBlocks/Pages/LandingPage";
-import { useState } from "react";
+import Vanilla from "./TailwindBlocks/Components/Vanilla";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
 
-  //use effect
   useEffect(() => {
-    // if this is not dark then remove dark theme
-    //this is coming from tailwind config and index css
-
-    
-    //this will add class="dark";
+    const root = document.documentElement;
     if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } 
-    //this will remove class="dark";
-    else {
-      document.documentElement.classList.remove("dark");
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
     }
   }, [theme]);
 
-  //create a function to change a theme
-
-  const handlethemechange = () => {
+  const handleThemeChange = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
 
-  //return
   return (
     <div>
-      {/* Landing page has all the comopents */}
-      {/* send via props for the handlethemechange function */}
-      <LandingPage change={handlethemechange} />
+      <BrowserRouter>
+        <Routes>
+          {/* defined / for the homepage so it only loads when its / */}
+          <Route
+            path="/"
+            element={<LandingPage change={handleThemeChange} />}
+          ></Route>
+
+          {/* using routes switch pages */}
+          <Route
+            path="/Vanilla"
+            element={<Vanilla change={handleThemeChange} />}
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };

@@ -10,7 +10,7 @@ const ContentSection = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1200x500"
+                src="https://www.wordlab.com/wp-content/uploads/2024/02/row-of-ice-cream-flavors-e1708387173353.jpg"
               />
             </div>
             <div className="flex flex-col sm:flex-row mt-10">
@@ -24,33 +24,35 @@ const ContentSection = () => {
                     stroke-width="2"
                     className="w-10 h-10"
                     viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
+                  ></svg>
+                  <img
+                    src="https://psu.instructure.com/images/thumbnails/138133358/8TZ5AgbhGQPQ9mwZ815tEuohgNyHoaogq3UAHQjk"
+                    alt=""
+                  />
                 </div>
                 <div className="flex flex-col items-center text-center justify-center">
                   <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
-                    Phoebe Caulfield
+                    Sai
                   </h2>
                   <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                   <p className="text-base">
-                    Raclette knausgaard hella meggs normcore williamsburg enamel
-                    pin sartorial venmo tbh hot chicken gentrify portland.
+                    Discover a World of Flavors – From timeless classics to
+                    intriguing exotic delights, each scoop is a new adventure.
+                    Explore our vast array of premium ice cream flavors, each
+                    one crafted to satisfy your sweet cravings.
                   </p>
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p className="leading-relaxed text-lg mb-4">
-                  Meggings portland fingerstache lyft, post-ironic fixie man bun
-                  banh mi umami everyday carry hexagon locavore direct trade art
-                  party. Locavore small batch listicle gastropub farm-to-table
-                  lumbersexual salvia messenger bag. Coloring book flannel
-                  truffaut craft beer drinking vinegar sartorial, disrupt
-                  fashion axe normcore meh butcher. Portland 90's scenester
-                  vexillologist forage post-ironic asymmetrical, chartreuse
-                  disrupt butcher paleo intelligentsia pabst before they sold
-                  out four loko. 3 wolf moon brooklyn.
+                  Treat Yourself – Our ice cream parlor is a treasure trove of
+                  delightful flavors, each designed to provide a perfect,
+                  refreshing treat. Choose your favorite or try something new;
+                  each flavor is a masterpiece in its own right. A Scoop of
+                  Happiness – Let each bite take you on a joyful journey through
+                  sweet, creamy perfection. Our flavors, ranging from vibrant
+                  Matcha Green Tea to rich Hazelnut, are sure to bring a smile
+                  to your face.
                 </p>
                 <a className="text-indigo-500 inline-flex items-center">
                   Learn More

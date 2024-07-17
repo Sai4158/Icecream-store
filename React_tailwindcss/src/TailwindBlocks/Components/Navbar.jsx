@@ -21,7 +21,7 @@ const Navbar = ({ change }) => {
                   alt=""
                 />
               </div>
-              <span className="ml-3 text-xl">Icestore</span>
+              <span className="ml-3 text-xl">Icestore.</span>
             </a>
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center hover:text-red-400 transition-all">
               <a className="mr-5 hover:text-gray-900" href="/">
